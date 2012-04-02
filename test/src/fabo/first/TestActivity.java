@@ -3,6 +3,10 @@ package fabo.first;
 import android.app.Activity;
 import android.os.Bundle;
 
+/**
+ * @author Marci
+ *
+ */
 public class TestActivity extends Activity {
     /** Called when the activity is first created. */
     @Override
