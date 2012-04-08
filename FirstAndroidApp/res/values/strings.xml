@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, startingPoint!</string>
+    <string name="app_name">Counter</string>
+    <string name="text1">This is my first app.</string>
+
+</resources>
