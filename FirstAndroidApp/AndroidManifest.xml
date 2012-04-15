@@ -11,8 +11,8 @@
         android:label="@string/app_name" >
         <activity
             android:name=".Splash"
-            android:label="@string/app_name" 
-            android:screenOrientation="portrait">
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,20 +30,46 @@
         </activity>
         <activity
             android:name=".Counter"
-            android:label="@string/app_name" >
-            <!--<intent-filter>
-                <action android:name="first.boldizsar.STARTINGPOINT" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>-->
+            android:label="Counter" >
         </activity>
         <activity
             android:name=".TextPlay"
-            android:label="@string/app_name" >            
+            android:label="TextPlay" >
         </activity>
         <activity
             android:name=".Email"
-            android:label="@string/app_name" >            
+            android:label="Email" >
+        </activity>
+        <activity
+            android:name=".Data"
+            android:label="Data" >
+        </activity>
+        <activity
+            android:name=".OpenedClass"
+            android:label="OpenedClass" >
+        </activity>
+        <activity
+            android:name=".GFX"
+            android:label="GFX" >
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="About Us..."
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="first.boldizsar.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Prefs"
+            android:label="Preferences" >
+            <intent-filter>
+                <action android:name="first.boldizsar.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
     </application>
 

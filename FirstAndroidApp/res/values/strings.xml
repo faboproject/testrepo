@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, startingPoint!</string>
-    <string name="app_name">Counter</string>
+    <string name="app_name">Fabo App</string>
     <string name="text1">This is my first app.</string>
 
 </resources>
