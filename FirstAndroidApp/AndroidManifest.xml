@@ -53,6 +53,10 @@
             android:label="GFX" >
         </activity>
         <activity
+            android:name=".GFXSurface"
+            android:label="GFX Surface" >
+        </activity>
+        <activity
             android:name=".AboutUs"
             android:label="About Us..."
             android:theme="@android:style/Theme.Dialog" >

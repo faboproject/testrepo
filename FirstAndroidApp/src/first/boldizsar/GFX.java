@@ -17,11 +17,12 @@ public class GFX extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		
-		//fullscreen
+		//Changing View to fullscreen
 				requestWindowFeature(Window.FEATURE_NO_TITLE);
 				getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 						WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		
+		//create new view object from our class
 		ourView = new MyNewGraphView(this);
 		setContentView(ourView);
 	}

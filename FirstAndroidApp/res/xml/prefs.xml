@@ -3,20 +3,20 @@
 
     <EditTextPreference
         android:key="name"
-        android:summary="Enter Your Name"
-        android:title="EditText" />
+        android:summary="Pass a text trough Data to OpenedClass"
+        android:title="Text" />
 
     <CheckBoxPreference
         android:defaultValue="true"
         android:key="checkbox"
-        android:summary="for the splash screen..."
+        android:summary="For the splash screen"
         android:title="Music" />
 
     <ListPreference
         android:entries="@array/list"
         android:entryValues="@array/lValues"
         android:key="list"
-        android:summary="This is a list to choose from"
-        android:title="list" />
+        android:summary="List"
+        android:title="Select the first in order to operate the Text" />
 
 </PreferenceScreen>
